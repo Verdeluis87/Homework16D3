@@ -137,7 +137,7 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
     return circlesGroup;
   }  
 
-var url = "https://raw.githubusercontent.com/the-Coding-Boot-Camp-at-UT/UTAUS201810DATA2/master/16_D3/Homework/Instructions/StarterCode/assets/data/data.csv?token=Aoe_wBo3V3i6Izz2kSSFNKlowXjs9OXDks5chE7CwA%3D%3D"
+var url = "https://raw.githubusercontent.com/Verdeluis87/Homework16D3.github.io/master/assets/data/data.csv"
 
 d3.csv(url)
   .then(function(Data) {
